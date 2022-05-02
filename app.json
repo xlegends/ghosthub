@@ -1,7 +1,7 @@
 {
-    "name": "Lucid Proxy",
-    "description": "An advanced web proxy front-end featuring state of the art techniques to provide the best user experience.",
-    "repository": "https://github.com/pyroTM/LucidProxy",
-    "logo": "https://github.com/pyroTM/LucidProxy/static/logo.png?raw=true",
-    "keywords": ["lucid", "ultraviolet"]
+    "name": "Gxme Hub",
+    "description": "The most advancest game site, with over 100 games and multiple proxies!",
+    "repository": "https://github.com/xlegends/gxmehub",
+    "logo": "https://xlegends.github.io/gxmehub/logo.gif",
+    "keywords": ["gamehub", "gxmehub"]
 }
