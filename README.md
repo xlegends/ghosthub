@@ -3,6 +3,8 @@ Gxme Hub, the next generation of unblocked game sites.
 Created by the awesome Gxme Hub development team.
 
 ### Deploy Links - 
+<p align="center">
+<a href="https://heroku.com/deploy?template=https://github.com/FogNetwork/Tsunami"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
 <a href="https://repl.it/github/xlegends/gxmehub"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/replit2.svg"><img></a>
 <a href="https://glitch.com/edit/#!/import/github/xlegends/gxmehub"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/glitch2.svg"><img></a>
 
