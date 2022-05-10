@@ -158,6 +158,42 @@ const gxmes = new Map([
 <br>
 <button>${gxmes.get(gxme) == "nowork" ? "this game is unsupported :(" : "Play now!"}</button>
 <script>
+document.querySelector('button').onclick = function() {
+ var url = "${gxmes.get(gxme)}";
+ var iframe = document.createElement('iframe');
+iframe.style.border = 'none';
+iframe.style.width = '100%';
+iframe.style.height = '100%';
+iframe.style.margin = '0';
+iframe.src = url;
+document.body.appendChild(iframe);
+document.querySelector('button').style.display = "none"
+}
+<\/script>
+<style>
+* {
+    color: white; 
+    font-family: arial;
+    text-align: center;
+}
+button {
+    width: 220px; 
+    height: 40px;
+    border-radius: 12px;
+    background-color: #1F51FF;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: background-color 500ms;
+}
+button:hover {
+    background-color: #1F51FF;
+}
+</style>
+`)
+    }
+      }
+    </script>
+<!--
     var urlObj = new window.URL(window.location.href);
     var url = "${gxmes.get(gxme)}";
 
@@ -184,27 +220,4 @@ const gxmes = new Map([
             document.querySelector('button').innerHTML="Page Opened!";
         };
     }
-<\/script>
-<style>
-* {
-    color: white; 
-    font-family: arial;
-    text-align: center;
-}
-button {
-    width: 220px; 
-    height: 40px;
-    border-radius: 12px;
-    background-color: #1F51FF;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    transition: background-color 500ms;
-}
-button:hover {
-    background-color: #1F51FF;
-}
-</style>
-`)
-    }
-      }
-    </script>
+-->
