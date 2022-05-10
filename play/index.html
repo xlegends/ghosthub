@@ -162,12 +162,13 @@ document.querySelector('button').onclick = function() {
  var url = "${gxmes.get(gxme)}";
  var iframe = document.createElement('iframe');
 iframe.style.border = 'none';
-iframe.style.width = '100%';
-iframe.style.height = '100%';
+iframe.style.width = '100vw';
+iframe.style.height = '100vh';
 iframe.style.margin = '0';
 iframe.src = url;
 document.body.appendChild(iframe);
 document.querySelector('button').style.display = "none"
+document.querySelector('h2').style.display = "none"
 }
 <\/script>
 <style>
