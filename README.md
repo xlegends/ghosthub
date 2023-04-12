@@ -1,6 +1,6 @@
-Gxme Hub, the next generation of unblocked game sites. 
+Ghost Hub, the next generation of unblocked game sites. 
 
-Created by the awesome Gxme Hub development team.
+Created by the awesome Ghost Hub development team.
 
 ### Deploy Links - 
 <a href="https://heroku.com/deploy/?template=https://github.com/xlegends/gxmehub"><img height="30px" src="https://raw.githubusercontent.com/FogNetwork/Tsunami/main/deploy/heroku2.svg"><img></a>
