@@ -14,4 +14,4 @@ All games hosted on seperate github repositories are to be hosted in this reposi
 
 ## Notice -
 
-If you take something from this and put it on your site, PLEASE give credits. We do not want anyone stealing Gxme Hub assets and not putting on credit.
+If you take something from this and put it on your site, PLEASE give credits. We do not want anyone stealing Ghost Hub assets and not putting on credit.
